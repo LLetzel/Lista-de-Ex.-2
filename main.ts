@@ -61,15 +61,15 @@ console.log(somalia);
 console.log("----------------------------------------------")
 
 //Faça um loop que printe apenas os numeros que são divisíveis por 3 e 5
-var vez = 0; 
-while (true) {
-  if (vez % 3 == 0 || vez % 5 == 0){
-    console.log(vez);
-    vez++;
-  } else {
-    vez++;
-  }
-}
+// var vez = 0; 
+// while (true) {
+//   if (vez % 3 == 0 || vez % 5 == 0){
+//     console.log(vez);
+//     vez++;
+//   } else {
+//     vez++;
+//   }
+// }
 
 console.log("----------------------------------------------")
 
@@ -116,14 +116,14 @@ olaMundo();
 console.log("----------------------------------------------");
 
 //Faça uma função que receba um texto como parametro e mostre o print 'O texto de parametro é: ' e concatene com o numero 
-function olaMundo2(Texto){
-  console.log("O texto de parametro é: " + Texto);
+function eoletzel(texto: string){
+  return ("O texto de parametro é: " + texto);
 }
-olaMundo2("Olá mundo");
+console.log(eoletzel("Letzel gato"));
 
 console.log("----------------------------------------------");
 //Faça uma função que receba como parametro o texto '10,58' e que ele retorne o número 10.58.
-function olaMundo3(Numeru){
-  return Number(Numeru.replace(",", "."));
+function olaMundo3(parametro: string): number{
+  return Number(parametro.replace(",", "."));
 }
 console.log(olaMundo3("10,58"));
