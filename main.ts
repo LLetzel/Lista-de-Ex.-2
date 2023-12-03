@@ -3,16 +3,16 @@ var input = require("prompt-sync")();
 // O comando IF, serve para que numa lógica de programação, SE uma determinada condição ocorrer, o código executa alguma ação, SENÃO outra.
 
 //Faça um programa que peça um nome de usuário e verifique SE o usuario digitado é 'Admin'. Caso seja printe 'Bem vindo', caso contrário printe 'Usuário não encontrado'
-var nome = input("Digite o usuário: ")
+var nome = input("Digite o usuário: ");
 if(nome == "Admin"){
-  console.log("Bem vindo")
+  console.log("Bem vindo");
 }else{
-  console.log("Usuário não encontrado")
+  console.log("Usuário não encontrado");
 }
 console.log("----------------------------------------------")
 
 //Faça um loop usando while ou for que conte de 0 a 10
-var sla = 0
+var sla = 0;
 while (sla < 10) {
   sla++;
   console.log(sla);
@@ -22,7 +22,7 @@ console.log("----------------------------------------------")
 
 
 //Faça um loop que conte de 0 até N, sendo que N é um numero que o usuário escolhe
-var letzel = 0
+var letzel = 0;
 var numq = Number(input('Digite um número: '))
 while(letzel < numq) {
   letzel++;
@@ -31,7 +31,7 @@ while(letzel < numq) {
 console.log("----------------------------------------------")
 
 //Faça um loop que conte de 100 até 1.
-var num = 101
+var num = 101;
 while (num > 1) {
   num = num - 1;
   console.log(num)
@@ -61,15 +61,15 @@ console.log(somalia);
 console.log("----------------------------------------------")
 
 //Faça um loop que printe apenas os numeros que são divisíveis por 3 e 5
-// var vez = 0; 
-// while (true) {
-//   if (vez % 3 == 0 || vez % 5 == 0){
-//     console.log(vez);
-//     vez++;
-//   } else {
-//     vez++;
-//   }
-// }
+var vez = 0; 
+while (vez > 100) {
+  if (vez % 3 == 0 || vez % 5 == 0){
+    console.log(vez);
+    vez++;
+  } else {
+    vez++;
+  }
+}
 
 console.log("----------------------------------------------")
 
@@ -96,9 +96,9 @@ for (var i = 0; i < matriz.length; i++) {
 console.log("----------------------------------------------")
 
 //Faça um loop FOR dentro de um loop FOR para ler irem por item de uma matriz
-for (var i = 0; i < matriz.length; i++) {
-  for (var j = 0; j < matriz[i].length; j++) {
-    console.log(matriz[i][j]);
+for (var l = 0; l < matriz.length; l++) {
+  for (var d = 0; d < matriz[i].length; d++) {
+    console.log(matriz[l][d]);
   }
 }
 
@@ -108,10 +108,10 @@ console.log("----------------------------------------------")
 
 
 //Faça uma função que printe 'Ola mundo' e chame ela
-function olaMundo(){
+function helloword(){
   console.log("Ola mundo");
 }
-olaMundo();
+helloword();
 
 console.log("----------------------------------------------");
 
@@ -123,7 +123,8 @@ console.log(eoletzel("Letzel gato"));
 
 console.log("----------------------------------------------");
 //Faça uma função que receba como parametro o texto '10,58' e que ele retorne o número 10.58.
-function olaMundo3(parametro: string): number{
+function pokipoki(parametro: string) {
   return Number(parametro.replace(",", "."));
 }
-console.log(olaMundo3("10,58"));
+console.log(pokipoki("10,58"));
+
