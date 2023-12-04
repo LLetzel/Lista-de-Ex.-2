@@ -133,5 +133,9 @@ function pokipoki(parametro: string) {
 }
 console.log(pokipoki("10,58"));
 
+<<<<<<< HEAD
 console.log("|| FIM ||");
 
+=======
+console.log("|| FIM ||");
+>>>>>>> 5c8fec9f6e02a6b4cdbbd474935880e5448d19f0
