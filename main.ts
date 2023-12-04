@@ -11,6 +11,10 @@ if(nome == "Admin"){
 }
 console.log("----------------------------------------------")
 
+//Escreva com suas palavras para que serve o comando While e de um exemplo prático de sua usabilidade para resolução de problemas lógicos.
+//while serve para criar loops ou ciclos, onde os blocos de códigos são repetidos enquanto uma condição proposta é verdadeira.
+//Ex: Faça um loop que conte de 0 até N, sendo que N é um numero que o usuário escolhe
+
 //Faça um loop usando while ou for que conte de 0 a 10
 var sla = 0;
 while (sla < 10) {
@@ -80,8 +84,9 @@ console.log("----------------------------------------------")
 var matriz = [
   [1, 2, 3, 4 ],
   [5, 6, 7, 8 ],
-  [9, 10, 11,12]
-]
+  [9, 10, 11,12],
+  [13, 14, 15, 16],
+]      
 
 //Acesse o 2° item da 1° linha da matriz
 console.log(matriz[0][1]);
